@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Sons">
+            <menu>
+                <item
+                    android:id="@+id/nav_humains"
+                    android:icon="@drawable/humain"
+                    android:title="Humains" />
+                <item
+                    android:id="@+id/nav_orcs"
+                    android:icon="@drawable/orc"
+                    android:title="Orcs" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Images">
+        <menu>
+            <item
+                android:id="@+id/nav_images"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Warcraft 1" />
+        </menu>
+    </item>
+
+</menu>
